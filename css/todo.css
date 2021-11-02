@@ -1,0 +1,109 @@
+body {
+    background-image: url("background.jpg");
+    padding: 20px 50px 5px 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 350%;
+    color:white;
+    font-weight: 900;
+}
+
+.add{
+    text-align: center;
+}
+
+textarea{
+    padding:5px;
+    width:70%;
+    height:20px;
+    background-color: aliceblue;
+}
+
+.addbtn{
+    width:30%;
+    padding:5px;
+    background-color:lightblue;
+}
+
+.addbtn:hover{
+    cursor: pointer;
+    background-color:rgb(161, 168, 230);
+}
+.sort-options{
+    text-align: center;
+}
+.sort{
+    color:lightblue;
+    background: none;
+    border:none;
+    font-size: 20px;
+    text-align: left;
+    padding:5px 20px;
+}
+
+.sort:hover{
+    cursor:pointer;
+    font-size:21px;
+    color:white;
+}
+hr{
+    width:50%;
+}
+
+.content{
+    background-color: white;
+    padding:7px;
+    width:95%;
+    margin:auto;
+}
+
+.element{
+    width:50%;
+    display: flex;
+    margin:auto;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.fa-check-circle-o{
+    color:greenyellow; 
+    padding:3px 7px;
+}
+
+.fa-check-circle-o:hover{
+    cursor:pointer;
+    color:rgb(24, 189, 9)
+}
+.fa-check-circle{
+    color:greenyellow; 
+    padding:3px 7px;
+}
+
+.fa-check-circle:hover{
+    cursor:pointer;
+    color:rgb(24, 189, 9)
+}
+.fa-trash-o{
+    color:white; 
+    padding:3px 7px;
+}
+
+.fa-edit{
+    color:white;
+    padding:3px 7px;
+}
+
+.fa-trash-o:hover{
+    cursor:pointer;
+    color:rgb(156, 154, 154)
+}
+
+.fa-edit:hover{
+    cursor:pointer;
+    color:rgb(156, 154, 154)
+}
+
+a {
+    text-decoration: none;
+}

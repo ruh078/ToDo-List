@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1> ToDo List </h1>
+    <div class="add">
+    <textarea placeholder="Enter Name" id="title"></textarea>
+    <textarea placeholder="Give link" id="link"></textarea>
+    <textarea placeholder="Topic" id="topic"></textarea>
+    <textarea placeholder="Rating (if needed)" id="rating"></textarea><br>
+    <button class="addbtn" id="addbtn" onclick="addtodo()">Add ToDo</button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="sort-options">
+    <button class="sort" id="all" onclick="display(this.id)">All</button>
+    <button class="sort" id="todo" onclick="display(this.id)">ToDo</button>
+    <button class="sort" id="completed" onclick="display(this.id)">Completed</button>
+    <hr></div>
+    <div class="list" id="list">
+       
+    </div>
+</body>
+<script src="todo.js"></script>
+</html>
